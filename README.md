@@ -1,1 +1,1 @@
-# Memory-Book-for-Alzheimer-s-Patients
+# Memory Book for Alzheimer's Patients
