@@ -1,0 +1,32 @@
+body {
+    background-color: #000000;
+    color: #FFB22C;
+}
+.stApp {
+    background-color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #FFB22C;
+}
+.css-1d391kg {
+    color: #FFB22C; /* streamlit sidebar text */
+}
+.css-1v0mbdj p {
+    color: #FFB22C; /* streamlit markdown text */
+}
+.stButton>button {
+    background-color: #FA812F;
+    color: black;
+    border-radius: 10px;
+}
+.stTextInput>div>div>input {
+    background-color: black;
+    color: #FFB22C;
+}
+.stTextArea>div>textarea {
+    background-color: black;
+    color: #FFB22C;
+}
+.css-1y4p8pa {
+    background-color: #111111;
+}

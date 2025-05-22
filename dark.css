@@ -1,0 +1,108 @@
+
+
+/* 🌙 Dark Mode Theme */
+body {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+/* Headings - Orange */
+h1
+{
+    color: #BB3E00 !important;
+}
+
+h2, h3, h4, h5, h6,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3,
+[data-testid="stMarkdownContainer"] h4,
+[data-testid="stMarkdownContainer"] h5,
+[data-testid="stMarkdownContainer"] h6 {
+    color: #A86523 !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+/* File uploader */
+[data-testid="stFileUploader"] {
+    background-color: #282828;
+    color: #ebdbb2;
+    border-radius: 10px;
+}
+
+/* Text inputs */
+input[type="text"] {
+    background-color: #282828;
+    color: #ebdbb2;
+    border: 1px solid #A86523;
+    border-radius: 6px;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #A86523;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.stButton > button:hover {
+    background-color: #e46c1c;
+    color: #ebdbb2;
+}
+
+/* Checkbox and radio */
+.stCheckbox > label, .stRadio > label {
+    color: #ebdbb2;
+}
+
+/* Markdown container override (paragraphs, labels, etc.) */
+[data-testid="stMarkdownContainer"] {
+    color: #ebdbb2;
+}
+
+
+
+
+/* Deploy button styling (approximate target) */
+header[data-testid="stHeader"] button,
+header[data-testid="stHeader"] svg,
+header[data-testid="stHeader"] div[role="button"] {
+    color: black !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Hover effect for deploy or 3-dot menu icons */
+header[data-testid="stHeader"] div[role="button"]:hover,
+header[data-testid="stHeader"] svg:hover {
+    color: #FA812F !important;
+    cursor: pointer;
+}
+
+/* Deploy button base style */
+.deploy-button {
+    background-color: #FA812F; /* orange base */
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: none;
+}
+
+/* Hover effect for Deploy button */
+.deploy-button:hover {
+    background-color: #FFB22C; /* brighter orange */
+    color: black;
+}

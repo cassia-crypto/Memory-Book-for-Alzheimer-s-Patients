@@ -1,0 +1,137 @@
+/* ☀️ Light Mode Theme */
+body, .stApp {
+    background-color: #FAEDCA !important;
+    color: #000000 !important;
+}
+
+/* Override all default text to black */
+html, body, .stMarkdown, .css-18e3th9, .css-1d391kg, .css-1cpxqw2,
+[data-testid="stMarkdownContainer"] {
+    color: black !important;
+}
+
+/* Headings - Orange */
+h1
+{
+    color: #BB3E00 !important;
+}
+
+h2, h3, h4, h5, h6,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3,
+[data-testid="stMarkdownContainer"] h4,
+[data-testid="stMarkdownContainer"] h5,
+[data-testid="stMarkdownContainer"] h6 {
+    color: #A86523 !important;
+}
+
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #FAD59A !important;
+    color: black !important;
+}
+
+/* File uploader */
+[data-testid="stFileUploader"] {
+    background-color: #FAD59A !important;
+    color: black !important;
+    border-radius: 10px !important;
+}
+
+/* Text inputs */
+input[type="text"], textarea {
+    background-color: #FAEDCA !important;
+    color: black !important;
+    border: 1px solid #FA812F !important;
+    border-radius: 6px !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #A86523 !important;
+    color: black !important;
+    padding: 6px 14px !important;
+    border-radius: 6px !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 14px !important;
+}
+
+.stButton > button:hover {
+    background-color: #e46c1c !important;
+    color: #FAEDCA !important;
+}
+
+/* Checkbox and radio */
+.stCheckbox > label, .stRadio > label {
+    color: black !important;
+}
+
+/* Fix for widgets text color */
+label, .stTextInput > div > label, .stSelectbox > div > label {
+    color: black !important;
+}
+
+/* Fix black top header bar (Streamlit toolbar) */
+header[data-testid="stHeader"] {
+    background-color: #FAEDCA !important;
+    color: black !important;
+    border-bottom: 1px solid #FA812F;
+}
+
+/* Optional: fix text/icons inside the header */
+header[data-testid="stHeader"] * {
+    color: black !important;
+}
+
+/* Fix black top header bar */
+header[data-testid="stHeader"] {
+    background-color: #FAEDCA !important;
+    color: black !important;
+    border-bottom: 3px solid #FA812F;
+    box-shadow: 0 2px 6px rgba(250, 129, 47, 0.25);  /* Soft orange glow */
+    z-index: 100;
+}
+
+/* Style all text/icons inside header */
+header[data-testid="stHeader"] * {
+    color: black !important;
+    font-weight: 500;
+}
+
+/* Deploy button styling (approximate target) */
+header[data-testid="stHeader"] button,
+header[data-testid="stHeader"] svg,
+header[data-testid="stHeader"] div[role="button"] {
+    color: black !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Hover effect for deploy or 3-dot menu icons */
+header[data-testid="stHeader"] div[role="button"]:hover,
+header[data-testid="stHeader"] svg:hover {
+    color: #FA812F !important;
+    cursor: pointer;
+}
+
+/* Deploy button base style */
+.deploy-button {
+    background-color: #FA812F; /* orange base */
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: none;
+}
+
+/* Hover effect for Deploy button */
+.deploy-button:hover {
+    background-color: #FFB22C; /* brighter orange */
+    color: black;
+}
