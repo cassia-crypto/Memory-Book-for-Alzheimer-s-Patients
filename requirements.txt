@@ -1,12 +1,7 @@
-streamlit==1.34.0
-opencv-python==4.9.0.80
-pillow==10.3.0
-numpy==1.24.4
-face-recognition==1.3.0
-face_recognition_models==0.3.0
 cmake
 dlib==19.22.0
-requests==2.32.3
-pandas==2.2.3
-protobuf==4.25.7
-tenacity==8.5.0
+face_recognition==1.3.0
+streamlit==1.34.0
+numpy==1.24.4
+opencv-python==4.9.0.80
+Pillow==10.3.0
