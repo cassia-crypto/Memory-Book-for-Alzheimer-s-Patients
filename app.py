@@ -74,11 +74,9 @@ if page == "Home":
         small_img = cv2.resize(img_array, (0, 0), fx=resize_factor, fy=resize_factor)
 
         # Detect faces
-        model_used = "hog"
-        #face_locations = face_recognition.face_locations(small_img, model=model_used)
-        #face_encodings = face_recognition.face_encodings(small_img, face_locations)
-        face_locations = []
-        face_encodings = []
+        model_used = "cnn" if model_choice === "Accurate (cnn)" else "hog"
+        face_locations = face_recognition.face_locations(small_img, model=model_used)
+        face_encodings = face_recognition.face_encodings(small_img, face_locations)
         st.write(f"✅ Detected {len(face_encodings)} face(s) using **{model_used}** model.")
 
         new_entries = []
