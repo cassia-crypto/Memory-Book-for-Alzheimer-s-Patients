@@ -6,7 +6,7 @@ certifi==2025.4.26
 charset-normalizer==3.4.2
 click==8.2.1
 dlib==20.0.0
-face_recognition@git+https://github.com/thetoby9944/face_recognition
+face_recognition@git+https://github.com/uv547756/face_recognition
 gitdb==4.0.12
 GitPython==3.1.44
 idna==3.10
