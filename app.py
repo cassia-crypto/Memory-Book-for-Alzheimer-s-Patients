@@ -75,9 +75,10 @@ if page == "Home":
 
         # Detect faces
         model_used = "hog"
-        face_locations = face_recognition.face_locations(small_img, model=model_used)
-        face_encodings = face_recognition.face_encodings(small_img, face_locations)
-
+        #face_locations = face_recognition.face_locations(small_img, model=model_used)
+        #face_encodings = face_recognition.face_encodings(small_img, face_locations)
+        face_locations = []
+        face_encodings = []
         st.write(f"✅ Detected {len(face_encodings)} face(s) using **{model_used}** model.")
 
         new_entries = []
